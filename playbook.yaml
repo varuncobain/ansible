@@ -9,11 +9,10 @@
       debug:
 	msg: Hello installing nginx
 
-    - name: Install nginx
-      apt:
+    - name: Install Nginx
+      yum:
         name: nginx
-        state: latest
-        update_cache: yes
+        state: present
 
     - name: Print message
       debug:
