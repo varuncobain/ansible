@@ -10,7 +10,7 @@
 	msg: Hello installing nginx
 
     - name: Install nginx
-      apt:
+      install:
         name: nginx
         state: latest
         update_cache: yes
