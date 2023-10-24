@@ -4,14 +4,3 @@
     - name: Print message
       debug:
         msg: Hello Ansible World
-    - name: Print message
-      debug:
-        msg: Hello installing nginx
-    - name: Install Nginx
-      yum:
-        name: nginx
-        state: present
-    - name: Print message
-      debug:
-	msg: nginx installed
-
