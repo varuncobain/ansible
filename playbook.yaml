@@ -8,7 +8,7 @@
       debug:
         msg: Hello installing nginx
     - name: Install Nginx
-        yum:
+      yum:
         name: nginx
         state: present
     - name: Print message
