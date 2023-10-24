@@ -9,13 +9,8 @@
       debug:
 	msg: Hello installing nginx
 
-<<<<<<< HEAD
     - name: Install Nginx
       yum:
-=======
-    - name: Install nginx
-      install:
->>>>>>> 050e507a1f4db56ce3520c5bbc958c574b86f999
         name: nginx
         state: present
 
