@@ -6,4 +6,4 @@
         msg: Hello Ansible World
     - name: Print message again
       debug:
-	msg: installing nginx
+        msg: installing nginx
